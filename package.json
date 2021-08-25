@@ -1,6 +1,6 @@
 {
   "name": "discord-embed-colors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package to quickly get colors for Discord embeds ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
