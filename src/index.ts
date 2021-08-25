@@ -4,8 +4,8 @@ import { colors } from './constant';
  * @param name name of colors
  * @returns decimal number for color
  */
-export function getColor(name: keyof typeof colors): number | null {
-  return (colors as { [k: string]: number })[name] || null;
+export function getColor(name: keyof typeof colors): number {
+  return (colors as { [k: string]: number })[name] || colors['BLUE'];
 }
 
 /**
